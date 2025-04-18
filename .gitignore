@@ -1,0 +1,17 @@
+# Ignore Python virtual environments
+venv/
+__pycache__/
+
+# Ignore local credentials
+.env
+*.env
+
+# Ignore DBT logs and target folders
+dbt_modules/
+logs/
+target/
+
+# Ignore system files
+.DS_Store
+path/to/file
+covid/covid_setup.py

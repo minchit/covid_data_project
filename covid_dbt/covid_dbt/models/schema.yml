@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: COVID_PROJECT
+    schema: RAW_DATA
+    tables:
+      - name: owid_covid2
